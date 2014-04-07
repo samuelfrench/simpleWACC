@@ -1,16 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package wacc;
 
 import java.util.Scanner;
 
 /**
  *
- * @author sam
+ * @author sam french - samfrench@gmail.com - github: samuelfrench
  */
 public class Wacc {
 
@@ -20,6 +14,9 @@ public class Wacc {
     
     
     public static void main(String[] args) {
+        
+        System.out.println("NOTE: To calculate WACC where the firm is issuing new common stock, just enter r_e instead of r_s.");
+        
         Scanner sc = new Scanner(System.in);
         double wd, rd, t, wp, rp, wc, rsCAPM, rsDCF, resultd, resultp, resultc, finalResult;
         
